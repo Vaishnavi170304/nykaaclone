@@ -1,0 +1,599 @@
+body{
+    width: calc(100%-10px);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#top{
+    height: 40px;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: palevioletred;
+}
+@keyframes beauty{
+    0% { top: -6px; }
+    25% { top: -6px; }
+    49% { top: -100px; }
+    51% { bottom: -100px; }
+    75% { bottom: -6px; }
+    100% {bottom: 0px; }
+}
+.top1{
+    position: relative;
+    animation: 6s beauty infinite;
+}
+#top2{
+    display: flex;
+}
+.top1:hover{
+    color: rgba(236, 27, 86, 0.904);
+    cursor: pointer;
+}
+#top2>p:hover{
+    color: rgba(236, 27, 86, 0.904);
+    cursor: pointer;
+}
+#nykaa{
+    display: flex;
+    overflow: hidden;
+}
+.nlogo{
+    margin:  10px 20px 10px 130px;
+}
+.nykaa2>a{
+    padding: 9px;
+    color: black;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+.nykaa2>a:hover , #list>a:hover{
+    color: rgba(236, 27, 86, 0.904);
+    cursor: pointer;
+}
+.search , .signin{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    height: 40px;
+}
+.search{
+      background-color: rgba(128, 128, 128, 0.499);
+}
+.signin{
+    background-color: rgba(236, 27, 86, 0.904);
+    color: white;
+    cursor: pointer;
+}
+#bag{
+    margin: 30px 50px;
+    color: #111212;
+    cursor: pointer;
+}
+#list{
+    overflow: hidden;
+    position: relative;
+    padding: 5px 130px 10px;
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.474);
+}
+#list>a{
+    color: rgb(122, 114, 114);
+    margin: 5px 15px;
+    overflow: hidden;
+}
+#imgd{
+    overflow: hidden;
+    display: flex;
+    margin-left: 40px;
+}
+a>img{
+    border-radius: 10px;
+    margin: 10px;
+}
+.cap{
+    font-size: x-large;
+    font-weight: bolder;
+    position: absolute;
+    left: 70px; top: 400px;
+    color: white;
+}
+.cap2{
+    font-size: x-large;
+    font-weight: bolder;
+    position: absolute;
+    left: 650px; top: 400px;
+    color: white;
+}
+.cap3{
+    font-size: x-large;
+    font-weight: bolder;
+    position: absolute;
+    left: 1200px; top: 400px;
+    color: white;
+}
+#imgd2>img{
+    border-radius: 10px;
+    margin: auto 40px;
+    width: 95%;
+}
+#timer{
+    position: absolute;
+    left: 60px; top: 830px;
+    color: white;
+    font-size: medium;
+    background-color: rgba(0, 0, 0, 0.464);
+    padding: 5px;
+    border-radius: 5px;
+}
+#brand{
+    margin: auto 40px;
+    overflow: hidden;
+}
+.slid{
+    display: flex;
+} 
+@keyframes slid{
+    0% { left: 0; }
+    25% { left: 0; }
+    50% { left: -70%; }
+    75% { left: -70%; }
+    100% { left: 0%; }
+}
+.slid img {
+    position: relative;
+    animation: 9s slid infinite;
+}
+#tbrand{
+    margin: auto 40px;
+    overflow: hidden;
+}
+.linki img{
+    border-radius: 10px 10px 0px 0px;
+}
+.tbimg1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tbimg1 div{
+    border: 1px solid rgba(128, 128, 128, 0.477);
+    border-radius: 10px;
+    height: 300px;
+}
+#tbrand p{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgba(236, 27, 86, 0.904);
+    margin: 10px 20px;
+}
+#tbrand span{
+    color: gray;
+    font-size: large;
+    font-weight: normal;
+}
+.glow{
+    border: 1px solid rgba(128, 128, 128, 0.477);
+    border-radius: 10px;
+}
+#slider{
+    overflow: hidden;
+    margin: auto 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#slider a{
+    color: rgba(236, 27, 86, 0.904);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    top: 25px; right: 45px;
+}
+#simg{
+    overflow: hidden;
+    margin: auto 40px;
+    display: flex;
+}
+#simg img{
+    border-radius: 10px;
+    height: 350px;
+    margin-right: 30px;
+}
+@keyframes simg{
+    0% { left: 0%; }
+    38% { left: -100%;}
+    63% { left: -200%; }
+    100% { left: -300%;}
+}
+#simg img {
+    position: relative;
+    animation: 12s simg infinite;
+}
+#pimg img{
+    height: 200px; width: 150px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+}
+#pimg div{
+    margin-right: 20px;
+}
+#pimg{
+    overflow: hidden;
+    margin: auto 40px;
+    display: flex;
+}
+#pimg .con{
+    display: flex;
+    position: relative;
+    top: -20px;
+}
+#pimg .pr{
+    position: relative;
+    top: 20px;
+    color: gray;
+    text-decoration: line-through;
+    margin: 0px 10px;
+} 
+.con p{
+    position: relative;
+    top: 3px;
+    color: rgb(6, 195, 6);
+}
+#pimg .bs{
+    color: gray;
+    font-weight: bold;
+    font-size: small;
+    position: relative;
+    top: -235px;
+    left: 10px;
+}
+#pimg .rate{
+    color: gray;
+    font-size: small;
+    font-weight: bold;
+    position: relative;
+    top: -75px;
+    left: 10px;
+}
+.rate span{
+    font-weight: normal;
+}
+#pimg .det{
+    position: relative;
+    top: -65px;
+}
+.bday{
+    position: relative;
+    top: -70px;
+}
+.bdi{
+    display: flex;
+}
+.bdi .linki{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+#snl{
+    overflow: hidden;
+    background-color: rgba(220, 209, 209, 0.204);
+    position: relative;
+    top: -50px; 
+}
+.bli{
+    margin: 0px 40px 30px 40px;
+    display: flex;
+}
+.bli img{
+    margin-right: 40px;
+}
+#unmiss{
+    overflow: hidden;
+    background-color: rgba(255, 160, 122, 0.17);
+    position: relative;
+    top: -50px;
+}
+.unm{
+    margin: 0px 40px 30px;
+}
+.uni{
+    display: flex;
+}
+.uni img{
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.fb1{
+    display: flex;
+    justify-content: space-between;
+}
+.fb2{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 430px auto 430px; 
+    }
+.fbi{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+#oan{
+    overflow: hidden;
+    background-color: rgba(233, 115, 178, 0.085);
+}
+#oan p{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgba(236, 27, 86, 0.904);
+    margin: 10px 20px;
+}
+#oan span{
+    color: gray;
+    font-size: large;
+    font-weight: normal;
+}
+.ony{
+    display: flex;
+    margin-left: 40px;
+}
+.ony div{
+    margin: -30px 10px 10px ;
+}
+#catfo{
+    overflow: hidden;
+    margin: auto 40px;
+}
+.cf1 img{
+    border-radius: 10px;
+    width: 100%;
+}
+.cf1 p{
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    top: -80px;
+    left: 10px;
+    color: white;
+}
+.cf1 span{
+    font-weight: lighter;
+}
+.cf2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -40px;
+}
+.cfi{
+    text-align: center;
+    font-weight: 600;
+    margin-right: 25px;
+}
+.sni{
+    display: flex;
+    justify-content: space-between;
+}
+#eday{
+    overflow: hidden;
+    background-color: rgba(100, 230, 230, 0.148);
+}
+#eday{
+    overflow: hidden;
+    background-color: rgba(100, 230, 230, 0.148);
+}
+.edi{
+    margin: 30px 40px ;
+}
+.edi img{
+    border-radius: 10px;
+}
+#eday{
+    overflow: hidden;
+    background-color: rgba(100, 230, 230, 0.148);
+}
+.edi{
+    margin: 30px 40px ;
+}
+.edi img{
+    border-radius: 10px;
+}
+.edi .cf2{
+    position: relative;
+    top: 30px;
+}
+.t10{
+    position: relative;
+    top: -80px;
+}
+#t10{
+    overflow: hidden;
+    display: flex;
+    margin: auto 40px;
+    position: relative;
+    top: -80px;
+}
+#t10 img{
+    border-radius: 10px;
+    margin-right: 30px;
+}
+#t10 p{
+    background-color: rgba(255, 255, 255, 0.362);
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    top: -63px;
+}
+#game{
+    overflow: hidden;
+    margin: auto 40px;
+    position: relative;
+    top: -150px;
+}
+#game p{
+    font-size: large;
+    color: gray;
+    position: relative;
+    top: -15px;
+}
+#game img{
+    border-radius: 10px;
+    position: relative;
+    top: -20px;
+}
+#game div{
+    display: flex;
+    justify-content: space-between;
+}
+.pop{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -160px;
+}
+.popi{
+    border: 1px solid gray;     
+    border-radius: 10px;
+}
+.popi img{
+    border-radius: 10px 10px 0px 0px;
+}
+.popi p{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgba(236, 27, 86, 0.904);
+    margin: 10px 20px;
+}
+.popi span{
+    color: gray;
+    font-size: large;
+    font-weight: normal;
+}
+.up{
+    overflow: hidden;
+    display: flex;
+    margin: auto 40px;
+    position: relative;
+    top: -150px;
+}
+.upi{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-right:30px;
+    font-size: large;
+    font-weight: bolder;
+    color: rgba(236, 27, 86, 0.904);
+}
+.upi img{
+    border-radius: 10px 10px 0px 0px;
+}
+.upi p{
+    margin: 10px;
+}
+#ave{
+    margin: auto 40px;
+    overflow: hidden;
+    position: relative;
+    top: -150px;
+}
+.avi{
+    display: flex;
+}
+.avi img{
+    margin-right: 30px;
+    border-radius: 10px;
+}
+#foot{
+    background-color: rgba(160, 153, 153, 0.227);
+    height: 40px;
+}
+#con{
+    height: 70px;
+    background-color: rgb(49, 45, 45);
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    font-size: large;
+}
+#con i{
+    margin: 10px;
+}
+#email{
+    border: none;
+    background-color: rgb(49, 45, 45);
+    color: white;
+    border-bottom: 1px solid white;
+    margin: 10px;
+    font-weight: bold;
+}
+#sub{
+    background-color: rgb(49, 45, 45);
+    border: 1px solid white;
+    padding: 5px; margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+.app img{
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+.phn{
+    display: flex;
+}
+.phn p{
+    position: relative;
+    top: -15px;
+}
+#dec{
+    background-color: gray;
+    display: flex;
+    justify-content: first baseline;
+    justify-content: space-evenly;
+    color: white;
+    padding: 50px;
+    font-size: small;
+}
+#dec h4{
+    font-size: large;
+}
+#dec h4:hover{
+    color: rgba(241, 97, 138, 0.904);
+}
+#dec p:hover{
+    color: rgba(241, 97, 138, 0.904);
+}
+#ico{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.sent{
+    position: relative;
+    top: -70px; left: 60px;
+}
+#end{
+    background-color: rgb(232, 57, 106);;
+    position: relative;
+    top: -90px;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+}
+.term{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto 490px;
+}
+#footer{
+    position: relative;
+    top: -130px;
+}
